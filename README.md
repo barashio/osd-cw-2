@@ -29,7 +29,7 @@ Example: ```(python) [null@arch osd-cw-2]$```
 
 ## Test Python Connectivity with MySQL Database
 
-Inside ```/osd-cw-2/python/code``` , run the ```main.py`` file with ```python3 main.py```. 
+Inside ```/osd-cw-2/python/code``` , run the ```main.py``` file with ```python3 main.py```. 
 
 If no error is shown, python is able to connect to the database. Else, something went wrong. 
 
