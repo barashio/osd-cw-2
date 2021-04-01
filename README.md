@@ -9,12 +9,38 @@ Create the database:
 
 ```mysql> CREATE DATABASE w1646608;```
 
+To show databases:
+
+```mysql> SHOW DATABASES;```
+
 Use the database:
 
-```
-mysql> USE w1646608;
-Database changed
-```
+```mysql> USE w1646608;```
+
+Show tables: 
+
+```mysql> SHOW TABLES;```
+
+Create table with numbers field:
+
+```mysql> CREATE TABLE numbers (number_id int auto_increment primary key, number varchar(2) NOT null);```
+
+Show all data in a table:
+
+```mysql> SELECT * FROM numbers;```
+
+Show table structure:
+
+```mysql> DESCRIBE numbers;```
+
+Show numbers table content:
+
+```mysql> SELECT * FROM numbers;```
+
+Insert data:
+
+```mysql> INSERT INTO numbers(number) values ('22')```
+
 
 ## Launch the Python Virtual Environment
 
@@ -33,5 +59,10 @@ Inside ```/osd-cw-2/python/code``` , run the ```main.py``` file with ```python3 
 
 If no error is shown, python is able to connect to the database. Else, something went wrong. 
 
+## Parent Process
+1. Create one child process
+
+## Child Process
+1. Print Hello World until
 
 
