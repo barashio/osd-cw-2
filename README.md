@@ -54,4 +54,6 @@ Example: ```(python) [null@arch osd-cw-2]$```
 
 From this point on, run any of the files. The virtual environment containts the needed library to run.
 
+To run the file, use: ```./run.sh && ./main```
+
 
