@@ -1,0 +1,5 @@
+Parent process PID (194770)started at (1617257821)
+Child process PID (194771) started at (1617257821)
+Child process PID (194771) stopped at (1617257823)
+Parent process PID (194770) stopped at (1617257823)
+File inode (1310857) with size (0) is created at (1617257817)

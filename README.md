@@ -52,17 +52,6 @@ This will cause the enviroment to be shown in brackets indicating the virtual en
 
 Example: ```(python) [null@arch osd-cw-2]$```
 
-
-## Test Python Connectivity with MySQL Database
-
-Inside ```/osd-cw-2/python/code``` , run the ```main.py``` file with ```python3 main.py```. 
-
-If no error is shown, python is able to connect to the database. Else, something went wrong. 
-
-## Parent Process
-1. Create one child process
-
-## Child Process
-1. Print Hello World until
+From this point on, run any of the files. The virtual environment containts the needed library to run.
 
 
